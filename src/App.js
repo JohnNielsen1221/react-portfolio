@@ -2,9 +2,9 @@ import React, { useState } from 'react';
 import './App.css';
 import About from './components/About';
 import Nav from './components/Nav';
-import Portfolio from './components/Portfolio';
-import ContactForm from './components/Contact';
-import Resume from './components/Resume';
+// import Portfolio from './components/Portfolio';
+// import ContactForm from './components/Contact';
+// import Resume from './components/Resume';
 
 
 function App() {
@@ -30,14 +30,7 @@ function App() {
         setContactSelected={setContactSelected}
       ></Nav>
       <main>
-        {!contactSelected ? (
-          <>
-            <Portfolio currentCategory={currentCategory}></Portfolio>
-            <About></About>
-          </>
-        ) : (
-            <ContactForm></ContactForm>
-          )}
+        <About></About>
       </main>
     </div>
   );
