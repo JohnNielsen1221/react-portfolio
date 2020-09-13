@@ -4,25 +4,36 @@ import About from './components/About';
 import Nav from './components/Nav';
 // import Portfolio from './components/Portfolio';
 import ContactForm from './components/Contact';
-// import Resume from './components/Resume';
-
+import Resume from './components/Resume';
+// import Footer from './components/Footer';
 
 function App() {
-  const [contactSelected, setContactSelected] = useState(false);
+  const [navSelected, setNavSelected] = useState("home");
+
+  const renderPage = () => {
+
+    switch (navSelected) {
+      case 'about':
+        return <About />;
+      case 'resume':
+        return <Resume />;
+      case 'contact':
+        return <ContactForm />;
+      default:
+        return <About />;
+    }
+  }
 
   return (
-    <div>
+    <div className="back-dark">
       <Nav
-        contactSelected={contactSelected}
-        setContactSelected={setContactSelected}
-      ></Nav>
+        navSelected={navSelected}
+        setNavSelected={setNavSelected}
+      />
       <main>
-        {!contactSelected ? (
-        <About></About>
-        ) : (
-        <ContactForm></ContactForm>
-        )}
+        {renderPage()}
       </main>
+
     </div>
   );
 }

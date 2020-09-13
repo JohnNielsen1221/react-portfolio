@@ -1,5 +1,4 @@
 import React from 'react';
-import coverImage from '../../assets/wood-background.jpg';
 import headshot from '../../assets/bright-headshot-small.jpg'
 
 const About = () => {

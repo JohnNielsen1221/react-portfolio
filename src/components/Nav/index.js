@@ -2,26 +2,27 @@ import React, { useEffect } from 'react';
 import { capitalizeFirstLetter } from '../../utils/helpers';
 
 function Nav(props) {
-    const {
-        contactSelected,
-        setContactSelected
-    } = props;
+    const { navSelected, setNavSelected } = props;
 
     return (
         <header className="flex-row px-2 ">
             <h2>
-                <a className='my-name' data-testid="link" href="/">
+                <a className='my-name' href="/">
                     John Hayes Nielsen
         </a>
             </h2>
             <nav>
                 <ul className="flex-row">
                     <li className="mx-2">
-                        <a data-testid="about" href="#about" onClick={() => setContactSelected(false)}>About Me</a>
+                        <a href="#about" onClick={() => setNavSelected("about")}>About Me</a>
                     </li>
-                    <li className={`mx-2 ${contactSelected && 'navActive'}`}>
-                        <span onClick={() => setContactSelected(true)}>Contact</span>
+                    <li className={`mx-2`}>
+                        <a href="#resume" onClick={() => setNavSelected("resume")}>Resume</a>
                     </li>
+                    <li className={`mx-2`}>
+                        <a href="#contact" onClick={() => setNavSelected("contact")}>Contact</a>
+                    </li>
+
                 </ul>
             </nav>
         </header>
