@@ -16,6 +16,9 @@ function Nav(props) {
                     <li className="mx-2">
                         <a href="#about" onClick={() => setNavSelected("about")}>About Me</a>
                     </li>
+                    <li className="mx-2">
+                        <a href="#portfolio" onClick={() => setNavSelected("portfolio")}>Portfolio</a>
+                    </li>
                     <li className={`mx-2`}>
                         <a href="#resume" onClick={() => setNavSelected("resume")}>Resume</a>
                     </li>

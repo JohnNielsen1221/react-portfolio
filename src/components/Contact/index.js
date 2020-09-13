@@ -36,7 +36,7 @@ function ContactForm() {
     //JSX
     return (
         <section>
-            <h1 data-testid="h1tag">Let's Chat</h1>
+            <h1 >Hello... Is it me you're looking for?</h1>
             <form id='contact-form' onSubmit={handleSubmit}>
                 <div>
                     <label htmlFor='name'>Name:</label>

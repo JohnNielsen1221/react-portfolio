@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 const Resume = () => {
     return (
         <section>
-            <p>this is filler</p>
+            <h1>Taking care of business and working overtime... work out...</h1>
         </section>
     );
 }

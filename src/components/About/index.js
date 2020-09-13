@@ -4,7 +4,7 @@ import headshot from '../../assets/bright-headshot-small.jpg'
 const About = () => {
     return (
         <section className='my-5'>
-            <h1 id='about'>Let me introduce myself...</h1>
+            <h1 id='about'>Pleased to meet you. Hope you guessed my name...</h1>
             <img src={headshot} className='my-2' style={{ width: '25%' }} alt='headshot' />
             <p className='about'>
                 {`The standard Lorem Ipsum passage, used since the 1500s
