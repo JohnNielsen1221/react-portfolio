@@ -167,6 +167,10 @@ nav a:hover {
   text-decoration: none;
 }
 
+nav a:focus {
+  color: var(--secondary)
+}
+
 nav  li {
   cursor: pointer;
 }
@@ -318,3 +322,6 @@ a {
   vertical-align: top;
 }
 
+footer{
+  text-align: center;
+}

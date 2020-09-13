@@ -8,7 +8,7 @@ import Resume from './components/Resume';
 import Footer from './components/Footer';
 
 function App() {
-  const [navSelected, setNavSelected] = useState("home");
+  const [navSelected, setNavSelected] = useState('about');
 
   const renderPage = () => {
 
