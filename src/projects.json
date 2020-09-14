@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "name": "D&D Initiative Tracker",
+        "image": "https://github.com/JohnNielsen1221/dd-initiative-tracker/blob/master/assets/images/ddscreenshot1.jpg",
+        "github": "https://github.com/JohnNielsen1221/dd-initiative-tracker",
+        "deploy": "https://johnnielsen1221.github.io/dd-initiative-tracker/"
+    },
+    {
+        "id": 2,
+        "name": "In Memorium",
+        "image": "https://github.com/JohnNielsen1221/memorial/blob/master/public/images/memorial-home.png",
+        "github": " https://github.com/JohnNielsen1221/memorial/",
+        "deploy": " https://alwaysremember.herokuapp.com/"
+    },
+    {
+        "id": 3,
+        "name": "Budget Tracker",
+        "image": "https://github.com/JohnNielsen1221/budget-tracker/blob/master/budget-tracker-ss.png",
+        "github": "https://github.com/JohnNielsen1221/budget-tracker",
+        "deploy": "https://calm-gorge-84926.herokuapp.com/"
+    },
+    {
+        "id": 4,
+        "name": "Weather Dashboard",
+        "image": "https://github.com/JohnNielsen1221/weather-dashboard/blob/master/assets/images/weather-dashboard-screenshot.png?raw=true",
+        "github": "https://github.com/JohnNielsen1221/weather-dashboard",
+        "deploy": "https://JohnNielsen1221.github.io/weather-dashboard/"
+    },
+    {
+        "id": 5,
+        "name": "Tech Blog",
+        "image": "https://github.com/JohnNielsen1221/tech-blog/blob/master/public/screenshots/tech-ss-3.png",
+        "github": "https://github.com/JohnNielsen1221/tech-blog",
+        "deploy": " https://sleepy-badlands-17864.herokuapp.com"
+    },
+    {
+        "id": 6,
+        "name": "Portfolio Lite",
+        "image": "https://github.com/JohnNielsen1221/JHN-Portfolio/blob/master/portfolio-ss.png?raw=true",
+        "github": "https://github.com/JohnNielsen1221/JHN-Portfolio",
+        "deploy": "https://johnnielsen1221.github.io/JHN-Portfolio/"
+    }
+]
