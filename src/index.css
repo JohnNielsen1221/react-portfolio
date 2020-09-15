@@ -333,6 +333,8 @@ footer{
   text-align: center;
 }
 
-.wrapper {
-  text-align: justify;
+.resume-link {
+  color: lightblue;
+  text-decoration: underline;
 }
+
