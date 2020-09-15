@@ -1,10 +1,26 @@
-import React, { useState } from 'react';
+import React from 'react';
+import ProjectCard from '../Cards'
+import projects from '../../projects.json'
 
-const Portfolio = () => {
+
+function Wrapper(props) {
+    return <div className="wrapper space-between">{props.children}</div>;
+}
+
+function Portfolio() {
+
     return (
-        <section>
-            <h1>It's been a hard day's night...</h1>
-        </section>
+        <div>
+            <div>
+                <h1 className="text-center portfolio-title">It's been a hard days night...</h1>
+            </div>
+
+            <Wrapper >
+                {projects.map((project) => (
+                    <ProjectCard key={project.id} name={project.name} image={project.image} github={project.github} deploy={project.deploy}/>
+                ))}
+            </Wrapper>
+        </div>
     );
 }
 

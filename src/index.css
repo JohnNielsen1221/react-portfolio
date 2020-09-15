@@ -250,8 +250,15 @@ textarea {
 }
 
 .card {
-  width: 25%;
+  
+  width: 30%;
   text-align: center;
+  display: inline-block;
+  background-color: rgb(252, 249, 249, .25);
+}
+
+.card-image {
+  cover: true;  
 }
 
 .img-thumbnail {
@@ -324,4 +331,8 @@ a {
 
 footer{
   text-align: center;
+}
+
+.wrapper {
+  text-align: justify;
 }

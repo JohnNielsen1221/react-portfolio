@@ -2,21 +2,21 @@
     {
         "id": 1,
         "name": "D&D Initiative Tracker",
-        "image": "https://github.com/JohnNielsen1221/dd-initiative-tracker/blob/master/assets/images/ddscreenshot1.jpg",
+        "image": "https://github.com/JohnNielsen1221/dd-initiative-tracker/blob/master/assets/images/ddscreenshot1.jpg?raw=true",
         "github": "https://github.com/JohnNielsen1221/dd-initiative-tracker",
         "deploy": "https://johnnielsen1221.github.io/dd-initiative-tracker/"
     },
     {
         "id": 2,
         "name": "In Memorium",
-        "image": "https://github.com/JohnNielsen1221/memorial/blob/master/public/images/memorial-home.png",
+        "image": "https://github.com/JohnNielsen1221/memorial/blob/master/public/images/memorial-home.png?raw=true",
         "github": " https://github.com/JohnNielsen1221/memorial/",
         "deploy": " https://alwaysremember.herokuapp.com/"
     },
     {
         "id": 3,
         "name": "Budget Tracker",
-        "image": "https://github.com/JohnNielsen1221/budget-tracker/blob/master/budget-tracker-ss.png",
+        "image": "https://github.com/JohnNielsen1221/budget-tracker/blob/master/budget-tracker-ss.png?raw=true",
         "github": "https://github.com/JohnNielsen1221/budget-tracker",
         "deploy": "https://calm-gorge-84926.herokuapp.com/"
     },
@@ -30,7 +30,7 @@
     {
         "id": 5,
         "name": "Tech Blog",
-        "image": "https://github.com/JohnNielsen1221/tech-blog/blob/master/public/screenshots/tech-ss-3.png",
+        "image": "https://github.com/JohnNielsen1221/tech-blog/blob/master/public/screenshots/tech-ss-3.png?raw=true",
         "github": "https://github.com/JohnNielsen1221/tech-blog",
         "deploy": " https://sleepy-badlands-17864.herokuapp.com"
     },
