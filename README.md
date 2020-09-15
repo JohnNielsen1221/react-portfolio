@@ -1,68 +1,55 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+# In Memoriam ![badge](https://img.shields.io/badge/license-MIT-blue)
+>A react program that allows users to view my work and contact me.
 
-In the project directory, you can run:
+## Table of contents
+* [General info](#general-info)
+* [Installation](#installation)
+* [Functionality](#functionality)
+* [Screenshots](#screenshots)
+* [Status](#status)
+* [Links](#links)
+* [License](#license)
+* [Contact](#contact)
 
-### `npm start`
+## General info
+This app gives users the oportunity to read a litt about me, view my work through deeployed applications and my Github Repo, look at my resume, and contact me with any questions they may have.
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Installation
+Steps required to install project:
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+- Clone the repo to your own system.
+- Run npm install from the command line in the root directory
+- Invoke the application with "npm start"
 
-### `npm test`
+You may also just view the working deployment at the link in the Links section.
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Functionality
+Currently this is a front-end only application with very basic functionality. You will begin on the About Me page, where you can read about me and view my profile picture. You can then click on the different options in the Navbar: Portfolio, Resume, and Contact. In the Portfolio, you can view screenshots of some projects I have done, and then click on the links to either visit the Github Repo or view the deployed application. In the Resume section, you can view some listed proficiencies, and also download a PDF of my resume. In the Contact section, you will EVENTUALLY be able to use the form to send me an email. (This is currently only a front-end app, though, so it doesn't work.) You can also view my email and use that to get in touch with me.
 
-### `npm run build`
+## Screenshots
+![Portfolio Home](src/assets/react-portfolio-ss-1.png)
+![Portfolio Portfolio](src/assets/react-portfolio-ss-2.png)
+![Portfolio Resume](src/assets/react-portfolio-ss-3.png)
+![Portfolio Contact](src/assets/react-portfolio-ss-4.png)
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Status
+Project is: _complete_ (for now)
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+## Links
+Respository Link - https://github.com/JohnNielsen1221/react-portfolio/
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Deployed on Github Pages - https://johnnielsen1221.github.io/react-portfolio/
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## License
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## Contact
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+Created by John Hayes Nielsen - johnhayesnielsen@gmail.com
