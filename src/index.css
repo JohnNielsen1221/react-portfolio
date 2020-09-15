@@ -338,3 +338,79 @@ footer{
   text-decoration: underline;
 }
 
+@media screen and (max-width: 768px) {
+  main {
+    /* text-align: center; */
+    background-position: fixed;
+    background-attachment: fixed;
+    padding: 0;
+  }
+  .card {
+    width: 45%;
+  }
+  form {
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+  }
+  .form-name, .form-email {
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+  }
+  textarea {
+    width: 90%;
+  }
+  .email-contact {
+    font-size: 1.2rem;
+    padding-bottom: 2rem;
+    text-align: center;
+  }
+
+}
+
+@media screen and (max-width: 575px) {
+  header {
+    text-align: center;
+    padding: 0 !important;
+  }
+  main {
+    text-align: center;
+    background-position: fixed;
+    background-attachment: fixed;
+    padding: 0;
+  }
+
+ul {
+  text-align: center;
+  justify-content: space-evenly;
+  padding: 0 20px;
+}
+  .my-2 {
+    width: 100% !important;
+  }
+  .about {
+    width: 100%;
+    padding: 0;
+  }
+  .card {
+    width: 100%;
+  }
+  form {
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+  }
+  .form-name {
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+  }
+  textarea {
+    width: 90%;
+  }
+  .email-contact {
+    font-size: 1.2rem;
+    padding-bottom: 2rem;
+  }
+}
