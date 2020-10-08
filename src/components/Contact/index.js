@@ -1,25 +1,27 @@
 import React, { useState } from 'react';
 import { validateEmail } from '../../utils/helpers';
+import emailjs from 'emailjs-com';
+
 
 function ContactForm() {
     const [formState, setFormState] = useState({ name: '', email: '', message: '' });
     const { name, email, message } = formState;
-    const [errorMessage, setErrorMEssage] = useState('');
+    const [errorMessage, setErrorMessage] = useState('');
 
     function handleChange(e) {
         if (e.target.name === 'email') {
             const isValid = validateEmail(e.target.value);
             console.log(isValid);
             if (!isValid) {
-                setErrorMEssage('Your email is invalid.');
+                setErrorMessage('Your email is invalid.');
             } else {
-                setErrorMEssage('');
+                setErrorMessage('');
             }
         } else {
             if (!e.target.value.length) {
-                setErrorMEssage(`${e.target.name} is required.`);
+                setErrorMessage(`${e.target.name} is required.`);
             } else {
-                setErrorMEssage('');
+                setErrorMessage('');
             }
         }
 
@@ -28,16 +30,36 @@ function ContactForm() {
         }
     }
 
-    function handleSubmit(e) {
+    const sendEmail = (e) => {
         e.preventDefault();
-        console.log(formState);
+
+        // if (Object.values(formState).filter(v=>v).length < 5) {
+        //     setErrorMessage("You must enter a valid response for all fields")
+        //     return;
+        // }
+
+        console.log(formState)
+
+        emailjs.sendForm(process.env.REACT_APP_EMAIL_SERVICE_ID, process.env.REACT_APP_EMAIL_TEMPLATE_ID, e.target, process.env.REACT_APP_EMAIL_USER_ID)
+            .then((result) => {
+                console.log(result.text);
+            }, (error) => {
+                console.log(error.text);
+            });
+
+        setFormState({
+            firstName: '',
+            lastName: '',
+            contactFormEmail: '',
+            message: ''
+        })
     }
 
     //JSX
     return (
         <section>
             <h1 >Hello... Is it me you're looking for?</h1>
-            <form id='contact-form' onSubmit={handleSubmit}>
+            <form id='contact-form' onSubmit={sendEmail}>
                 <div>
                     <label className='form-name' htmlFor='name'>Name:</label>
                     <input type="text" defaultValue={name} onBlur={handleChange} name="name" />
