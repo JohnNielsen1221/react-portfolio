@@ -7,6 +7,7 @@ function ContactForm() {
     const [formState, setFormState] = useState({ name: '', email: '', message: '' });
     const { name, email, message } = formState;
     const [errorMessage, setErrorMessage] = useState('');
+    const [successMessage, setSuccessMessage] = useState('');
 
     function handleChange(e) {
         if (e.target.name === 'email') {
@@ -33,10 +34,13 @@ function ContactForm() {
     const sendEmail = (e) => {
         e.preventDefault();
 
-        // if (Object.values(formState).filter(v=>v).length < 5) {
-        //     setErrorMessage("You must enter a valid response for all fields")
-        //     return;
-        // }
+        if (Object.values(formState).filter(v=>v).length < 1) {
+            setErrorMessage("You must enter a valid response for all fields")
+            return;
+        } else {
+            setSuccessMessage('Thank you for your email! I will be in touch shortly.')
+        }
+
 
         console.log(formState)
 
@@ -48,9 +52,8 @@ function ContactForm() {
             });
 
         setFormState({
-            firstName: '',
-            lastName: '',
-            contactFormEmail: '',
+            name: '', 
+            email: '', 
             message: ''
         })
     }
@@ -75,6 +78,11 @@ function ContactForm() {
                 {errorMessage && (
                     <div>
                         <p className='error-text'>{errorMessage}</p>
+                    </div>
+                )}
+                {successMessage && (
+                    <div>
+                        <p className='error-text'>{successMessage}</p>
                     </div>
                 )}
                 <button data-testid="buttontag" type='submit'>Submit</button>
