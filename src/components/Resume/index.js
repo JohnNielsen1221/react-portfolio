@@ -9,12 +9,12 @@ function Resume() {
                 <br></br>
                 <div className='proficiencies'>
                     <h3>Front-End Proficiencies</h3>
-                    <p>HTML<br></br>CSS (Bootstrap, Materialize)<br></br> JavaScript<br></br> jQuery<br></br> React<br></br> IndexedDB</p>
+                    <p>HTML<br></br>CSS (Bootstrap, Materialize, custom)<br></br> JavaScript<br></br> jQuery<br></br> React<br></br> IndexedDB</p>
                 </div>
                 <br></br>
                 <div>
                     <h3>Back-End Proficiencies</h3>
-                    <p>Node<br></br> Express<br></br> SQL (sqlite, mySQL)<br></br> Sequelize<br></br> NoSQL (MongoDB, Mongoose)<br></br> API's (third-party, RESTful, server-side)</p>
+                    <p>Node<br></br> Express<br></br> SQL (sqlite, mySQL)<br></br> Sequelize<br></br> NoSQL (MongoDB, Mongoose)<br></br> API's</p>
                 </div>
             </div>
         </section>
