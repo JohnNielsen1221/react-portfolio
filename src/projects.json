@@ -28,12 +28,12 @@
     },
     {
         "id": 4,
-        "name": "Weather Dashboard",
-        "image": "https://github.com/JohnNielsen1221/weather-dashboard/blob/master/assets/images/weather-dashboard-screenshot.png?raw=true",
-        "github": "https://github.com/JohnNielsen1221/weather-dashboard",
-        "deploy": "https://JohnNielsen1221.github.io/weather-dashboard/",
-        "description": "Plan for the weather",
-        "skills": "HTML, CSS, JS"
+        "name": "RoloDeck",
+        "image": "https://github.com/TRemigi/Roll-a-Jazz/blob/master/client/src/assets/images/dark-rolo-ss.png?raw=true",
+        "github": "https://github.com/JohnNielsen1221/Roll-a-Jazz",
+        "deploy": "https://rolodeck.herokuapp.com/",
+        "description": "Connect like a professional",
+        "skills": "MERN, JS, CSS"
     },
     {
         "id": 5,
