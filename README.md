@@ -1,6 +1,6 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-# In Memoriam ![badge](https://img.shields.io/badge/license-MIT-blue)
+# John Hayes Nielsen Portfolio ![badge](https://img.shields.io/badge/license-MIT-blue)
 >A react program that allows users to view my work and contact me.
 
 ## Table of contents
