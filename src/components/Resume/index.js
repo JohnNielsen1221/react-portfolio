@@ -5,7 +5,7 @@ function Resume() {
         <section>
             <h1 className="resume-title">Taking care of business and working overtime. Workout...</h1>
             <div className="resume-page">
-                <h4>Download my <a className='resume-link' href="https://github.com/JohnNielsen1221/react-portfolio/blob/master/src/assets/JohnHayesNielsenResume.docx">resume</a></h4>
+                <h4>Download my <a className='resume-link' href="https://docs.google.com/document/d/1-jhVp8_SlNoir62a7ZJvIqX7wBOlNcX06TgrrHEFKKw/edit?usp=sharing" target='blank'>resume</a></h4>
                 <br></br>
                 <div className='proficiencies'>
                     <h3>Front-End Proficiencies</h3>
