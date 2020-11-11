@@ -14,7 +14,7 @@ function Resume() {
                 <br></br>
                 <div>
                     <h3>Back-End Proficiencies</h3>
-                    <p>Node<br></br> Express<br></br> SQL (sqlite, mySQL)<br></br> Sequelize<br></br> NoSQL (MongoDB, Mongoose)<br></br> API's</p>
+                    <p>Node<br></br> Express<br></br> SQL (sqlite, mySQL)<br></br> Sequelize<br></br> NoSQL (MongoDB, Mongoose)<br></br> REST API's</p>
                 </div>
             </div>
         </section>
